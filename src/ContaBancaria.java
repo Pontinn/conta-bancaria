@@ -1,5 +1,5 @@
 public abstract class ContaBancaria implements Conta{
-
+    double balance;
     @Override
     public void Deposit() {
 
