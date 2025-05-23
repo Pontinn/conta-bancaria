@@ -1,29 +1,38 @@
-💰 Simulação Básica de Conta Bancária
-Este projeto é uma simulação simples de uma conta bancária desenvolvida em Java, com foco em conceitos de Programação Orientada a Objetos (POO), como classes abstratas e interfaces.
+# 💰 Simulação Básica de Conta Bancária
 
-✨ Funcionalidades
-A classe abstrata ContaBancaria implementa os métodos definidos na interface Conta e simula três operações bancárias básicas:
+Este projeto é uma simulação simples de uma conta bancária desenvolvida em Java, com foco em conceitos de Programação Orientada a Objetos (POO), como **classes abstratas** e **interfaces**.
 
-Depósito (Deposit): Permite ao usuário realizar depósitos na conta com uma taxa de 1% aplicada ao valor inserido.
+## ✨ Funcionalidades
 
-Saque (Withdraw): Permite ao usuário sacar valores desde que haja saldo suficiente.
+A classe abstrata `ContaBancaria` implementa os métodos definidos na interface `Conta` e simula três operações bancárias básicas:
 
-Consulta de Saldo (TotalBalance): Exibe o saldo atual da conta.
+- **Depósito (`Deposit`)**  
+  Permite ao usuário realizar depósitos na conta com uma taxa de 1% aplicada ao valor inserido.
 
-Cada operação é interativa e utiliza o Scanner para entrada de dados via terminal.
+- **Saque (`Withdraw`)**  
+  Permite ao usuário sacar valores desde que haja saldo suficiente.
 
-🔧 Tecnologias
-Java (JDK 8+)
+- **Consulta de Saldo (`TotalBalance`)**  
+  Exibe o saldo atual da conta.
 
-Terminal/Console
+Cada operação é interativa e utiliza o `Scanner` para entrada de dados via terminal.
 
-🧪 Objetivo Educacional
-Este projeto tem como objetivo a prática de:
+## 🔧 Tecnologias
 
-Estruturação de projetos em Java
+- Java (JDK 8 ou superior)
+- Terminal / Console
 
-Abstração e interfaces
+## 🧪 Objetivo Educacional
 
-Entrada de dados via console
+Este projeto tem como finalidade a prática dos seguintes conceitos:
 
-Lógica de controle de fluxo e validações simples
+- Estruturação de projetos em Java
+- Uso de classes abstratas e interfaces
+- Manipulação de entrada de dados com `Scanner`
+- Lógica de controle de fluxo e validações básicas
+
+## 🚀 Como executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
