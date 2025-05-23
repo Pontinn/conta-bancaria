@@ -35,4 +35,4 @@ Este projeto tem como finalidade a prática dos seguintes conceitos:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/Pontinn/conta-bancaria.git
