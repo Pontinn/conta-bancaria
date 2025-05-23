@@ -19,13 +19,15 @@ public class Main {
 
             switch (panelResponse){
                 case 1:
-                    System.out.println("Você escolheu a opção 1");
+                    account.Deposit();
                     break;
                 case 2:
                     System.out.println("Você escolheu a opção 2");
+                    account.Withdraw();
                     break;
                 case 3:
                     System.out.println("Você escolheu a opção 3");
+                    account.TotalBalance();
                     break;
                 case 4:
                     System.out.println("Você escolheu a opção 4");
